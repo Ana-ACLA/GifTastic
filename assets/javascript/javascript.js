@@ -55,7 +55,7 @@ var staticUrl = "";
       var individualsinger = $(this).attr("data-name");
 
       // Constructing a queryURL using the button name
-      var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+      var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
         individualsinger + "&api_key=dc6zaTOxFJmzC&limit=13";
 
       // Performing an AJAX request with the queryURL
