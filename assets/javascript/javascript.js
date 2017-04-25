@@ -32,7 +32,7 @@ var staticUrl = "";
         // Looping through the array of movies
         for (var i = 0; i < singers.length; i++) {
 
-          // Then dynamicaly generating buttons for each movie in the array.
+          // Then dynamicaly generating buttons for each singer in the array.
           // This code $("<button>") is all jQuery needs to create the start and end tag. (<button></button>)
           var a = $("<button>");
           // Adding a class
